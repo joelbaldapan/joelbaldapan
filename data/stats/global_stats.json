@@ -1,8 +1,8 @@
 {
-  "high_score": 16,
+  "high_score": 0,
   "games_finished": 0,
-  "largest_tile": 8,
-  "total_moves": 5,
+  "largest_tile": 2,
+  "total_moves": 1,
   "unique_users": 1,
   "known_users": [
     "joelbaldapan"

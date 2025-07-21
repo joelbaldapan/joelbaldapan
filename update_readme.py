@@ -1,4 +1,6 @@
 import json
+import re
+from datetime import UTC, datetime
 from pathlib import Path
 
 from game.config import GAME_FILE_PATH, USER_STATS_PATH
@@ -79,6 +81,19 @@ def generate_top_scorers_table() -> str:
 def update_readme(readme_path: str = "README.md") -> None:
     """Update the README.md file with the generated tables."""
     readme_content = Path(readme_path).read_text()
+
+    # Generate version string using current timestamp (UTC)
+    version = datetime.now(UTC).strftime("%Y%m%d%H%M%S")
+
+    # Regex pattern to find the board image src
+    img_pattern = r'(<img\s+src="data/board/board\.svg)(\?v=\d+)?(")'
+
+    # Replace it with versioned URL
+    readme_content = re.sub(
+        img_pattern,
+        rf"\1?v={version}\3",
+        readme_content,
+    )
 
     # Update Recent Moves Table
     recent_moves_table = generate_recent_moves_table()
