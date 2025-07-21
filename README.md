@@ -68,6 +68,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | Username | Score Earned |
 |---|---|
 | [@joelbaldapan](https://github.com/joelbaldapan) | +0 |
+| [@joelbaldapan](https://github.com/joelbaldapan) | +0 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
 <!--END_RECENT_MOVES_TABLE-->
 
