@@ -1,9 +1,12 @@
 import json
 import re
-from datetime import UTC, datetime
 from pathlib import Path
 
-from game.config import GAME_FILE_PATH, USER_STATS_PATH
+from game.config import (
+    GAME_FILE_PATH,
+    GLOBAL_STATS_FILE_PATH,
+    USER_STATS_PATH,
+)  # Ensure GLOBAL_STATS_FILE_PATH is imported
 
 # TAGS
 CUSTOM_START_TAG_RECENT_MOVES = "<!--START_RECENT_MOVES_TABLE-->"
@@ -16,6 +19,27 @@ CUSTOM_END_TAG_TOP_SCORERS = "<!--END_TOP_SCORERS_TABLE-->"
 # Paths to data files
 user_stats_path = Path(USER_STATS_PATH)
 game_file_path = Path(GAME_FILE_PATH)
+global_stats_file_path = Path(GLOBAL_STATS_FILE_PATH)  # Path to global stats
+
+
+def get_current_board_number() -> int:
+    """Read the current_board_number from global_stats.json.
+
+    Returns:
+        int: Current baord number, starting at index 1.
+
+    """
+    if not global_stats_file_path.exists():
+        return 0  # Default if file doesn't exist or is not yet created
+
+    with global_stats_file_path.open("r") as f:
+        try:
+            stats = json.load(f)
+            return stats.get("current_board_number", 0)
+        except json.JSONDecodeError:
+            # Handle empty or corrupted JSON file
+            print(f"Warning: {global_stats_file_path} is empty or corrupted. Returning default board number.")
+            return 0
 
 
 def generate_recent_moves_table() -> str:
@@ -79,21 +103,30 @@ def generate_top_scorers_table() -> str:
 
 
 def update_readme(readme_path: str = "README.md") -> None:
-    """Update the README.md file with the generated tables."""
+    """Update the README.md file with the generated tables and dynamic board image."""
     readme_content = Path(readme_path).read_text()
 
-    # Generate version string using current timestamp (UTC)
-    version = datetime.now(UTC).strftime("%Y%m%d%H%M%S")
+    # Get the current board number
+    current_board_num = get_current_board_number()
 
-    # Regex pattern to find the board image src
-    img_pattern = r'(<img\s+src="data/board/board\.svg)(\?v=\d+)?(")'
+    # Regex pattern to find the board image src.
+    # It looks for <img src="data/board/board[any_number_or_nothing].svg" ...>
+    # 1: '<img src="data/board/board'
+    # 2: Optional digits (the current number, if any)
+    # 3: '.svg'
+    # 4: The rest of the attributes until the closing quote
+    img_pattern = r'(<img\s+src="data/board/board)(\d*)?(\.svg.*?)"'
 
-    # Replace it with versioned URL
-    readme_content = re.sub(
-        img_pattern,
-        rf"\1?v={version}\3",
-        readme_content,
-    )
+    # Replacement function to insert the new board number
+    def replace_img_src(match: re.Match) -> str:
+        # Construct the new src attribute: "data/board/board<current_board_num>.svg"
+        new_src_value = f"data/board/board{current_board_num}.svg"
+
+        # We replace the src part with the new_src_value
+        return re.sub(r'src=".*?"', f'src="{new_src_value}"', match.group(0))
+
+    # Perform the replacement
+    readme_content = re.sub(img_pattern, replace_img_src, readme_content, count=1)
 
     # Update Recent Moves Table
     recent_moves_table = generate_recent_moves_table()
@@ -104,9 +137,10 @@ def update_readme(readme_path: str = "README.md") -> None:
         # Split and reassemble content around the tags
         parts = readme_content.split(start_tag_recent)
         before_tag = parts[0]
-        after_tag = (
-            parts[1].split(end_tag_recent)[1] if len(parts) > 1 else ""
-        )  # Handle case where end tag might not be found after start
+
+        # Ensure that if the end tag is not found in the second part, we don't error
+        after_tag_split = parts[1].split(end_tag_recent) if len(parts) > 1 else []
+        after_tag = after_tag_split[1] if len(after_tag_split) > 1 else ""
 
         readme_content = before_tag + start_tag_recent + "\n" + recent_moves_table + "\n" + end_tag_recent + after_tag
 
@@ -119,7 +153,10 @@ def update_readme(readme_path: str = "README.md") -> None:
         # Split and reassemble content around the tags
         parts = readme_content.split(start_tag_top)
         before_tag = parts[0]
-        after_tag = parts[1].split(end_tag_top)[1] if len(parts) > 1 else ""
+
+        # Ensure that if the end tag is not found in the second part, we don't error
+        after_tag_split = parts[1].split(end_tag_top) if len(parts) > 1 else []
+        after_tag = after_tag_split[1] if len(after_tag_split) > 1 else ""
 
         readme_content = before_tag + start_tag_top + "\n" + top_scorers_table + "\n" + end_tag_top + after_tag
 

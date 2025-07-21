@@ -36,6 +36,30 @@ class GlobalStats:
         stats["games_finished"] += 1
         GlobalStats._save_stats(stats)
 
+    @staticmethod
+    def get_current_board_number() -> int:
+        """Get the current board number.
+
+        Returns:
+            int: the current board number.
+
+        """
+        stats = GlobalStats._load_stats()
+        return stats.get("current_board_number", 0)
+
+    @staticmethod
+    def increment_board_number() -> int:
+        """Increment the current board number and saves it.
+
+        Returns:
+            int: the new number.
+
+        """
+        stats = GlobalStats._load_stats()
+        stats["current_board_number"] = (stats["current_board_number"] + 1) % 1000  # Cycle to prevent infinite files
+        GlobalStats._save_stats(stats)
+        return stats["current_board_number"]
+
     # Private methods below
 
     @staticmethod
@@ -54,6 +78,7 @@ class GlobalStats:
             "total_moves": 0,
             "unique_users": 0,
             "known_users": [],
+            "current_board_number": 0,
         }
 
         stats_path.parent.mkdir(parents=True, exist_ok=True)

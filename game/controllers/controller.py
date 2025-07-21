@@ -10,7 +10,7 @@ from game.config import (
 from game.models.game_board import GameBoard
 from game.models.global_stats import GlobalStats
 from game.models.user_stats import UserStats
-from game.utils.archive_file import archive_file
+from game.utils.file_utils import archive_file
 from game.views.view import BoardRenderer
 
 VALID_DIRECTIONS = ("up", "down", "left", "right")

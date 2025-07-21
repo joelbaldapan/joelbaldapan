@@ -18,6 +18,7 @@ from game.config import (
     SVG_TILE_COLORS,
     SVG_TILE_SIZE,
 )
+from game.utils.file_utils import update_board_svg_file
 
 
 class BoardRenderer:
@@ -34,7 +35,7 @@ class BoardRenderer:
             print("-" * border)
 
     def render_to_svg(self, board: list[list[int]], score: int) -> None:
-        """Render the game board as an SVG file."""
+        """Render the game board as an SVG file with an incrementing number."""
         width = BOARD_SIZE * SVG_TILE_SIZE + (BOARD_SIZE + 1) * SVG_GAP
         height = BOARD_SIZE * SVG_TILE_SIZE + (BOARD_SIZE + 1) * SVG_GAP + SVG_SCORE_HEIGHT
 
@@ -107,7 +108,5 @@ class BoardRenderer:
 
         svg_elements.append("</svg>")
 
-        path = Path(BOARD_FILE_PATH)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text("\n".join(svg_elements))
-        print(f"Board view exported to {BOARD_FILE_PATH}")
+        # Call the utility function to handle file saving and rotation
+        update_board_svg_file("\n".join(svg_elements), BOARD_FILE_PATH)
