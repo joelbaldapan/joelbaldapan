@@ -1,10 +1,11 @@
 {
-  "high_score": 20,
+  "high_score": 4,
   "games_finished": 0,
-  "largest_tile": 8,
-  "total_moves": 7,
+  "largest_tile": 4,
+  "total_moves": 1,
   "unique_users": 1,
   "known_users": [
     "joelbaldapan"
-  ]
+  ],
+  "current_board_number": 1
 }
