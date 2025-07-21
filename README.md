@@ -74,3 +74,6 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
+
+## 🤖 Want to make your own?
+You may check out my [2048 README Engine repository](https://github.com/joelbaldapan/2048-readme-engine/)! 
