@@ -1,0 +1,64 @@
+[project]
+name = "2048-readme-engine"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest",
+]
+
+
+[tool.ruff]
+lint.select = ["ALL"]
+lint.ignore = [
+    "ARG001",
+    "CPY001",
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D107",
+    "D203",
+    "D213",
+    "E226",
+    "EM101",
+    "EM102",
+    "PLR2004",
+    "PLR6301",
+    "PLW1514",
+    "PTH123",
+    "Q000",
+    "Q001",
+    "RET505",
+    "S101",
+    "S311",
+    "T201",
+    "TC003",
+    "TRY003",
+]
+line-length = 120
+target-version = "py311"
+preview = true
+
+
+[tool.ruff.lint.per-file-ignores]
+"test_*.py" = [
+    "ANN201",
+    "PLR0915",
+    "PLR6301",
+    "PT011",
+    "PT012",
+]
+"tests/test_*.py" = [
+    "ANN201",
+    "PLR0915",
+    "PLR6301",
+    "PT011",
+    "PT012",
+]
+"**/test_*.py" = [
+    "ANN201",
+    "PLR0915",
+    "PLR6301",
+    "PT011",
+    "PT012",
+]

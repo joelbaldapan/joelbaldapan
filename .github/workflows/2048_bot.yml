@@ -1,0 +1,123 @@
+name: 2048 Game Bot
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play_game:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies from requirements.txt
+        run: pip install -r requirements.txt
+
+      - name: Parse Issue Title and Set Environment Variables
+        id: parse_issue
+        run: |
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+          echo "Issue title: $ISSUE_TITLE"
+
+          if [[ "$ISSUE_TITLE" =~ ^MOVE:[[:space:]]*([UDLRudlr])$ ]]; then
+            DIRECTION_INPUT="${BASH_REMATCH[1]}"
+            echo "Extracted direction input: $DIRECTION_INPUT"
+            echo "move_direction=$DIRECTION_INPUT" >> "$GITHUB_OUTPUT"
+            echo "is_valid_move=true" >> "$GITHUB_OUTPUT"
+            echo "comment_body=Your move has been processed! Check the updated board and leaderboards in the [main README](${{ github.repositoryUrl }})." >> "$GITHUB_OUTPUT"
+            echo "issue_reaction=+1" >> "$GITHUB_OUTPUT"
+          else
+            echo "Issue title does not match 'MOVE: [DIRECTION]' format."
+            echo "is_valid_move=false" >> "$GITHUB_OUTPUT"
+            echo "comment_body=Woops, you submitted the wrong format! Please use \"MOVE: [U/D/L/R]\". " >> "$GITHUB_OUTPUT"
+            echo "issue_reaction=confused" >> "$GITHUB_OUTPUT" # Or 'rocket', '-1', etc.
+          fi
+        shell: bash
+
+      - name: Get Username
+        id: get_username
+        run: echo "username=${{ github.event.issue.user.login }}" >> "$GITHUB_OUTPUT"
+
+      - name: Run 2048 Game Script (Conditional)
+        # This step will only run if the issue title was valid
+        if: steps.parse_issue.outputs.is_valid_move == 'true'
+        run: |
+          python3 main.py "${{ steps.get_username.outputs.username }}" "${{ steps.parse_issue.outputs.move_direction }}"
+        env:
+          PYTHONPATH: .
+
+      - name: Run README Update Script
+        # Always run to keep tables fresh, even if game script didn't run or failed
+        run: python3 update_readme.py
+
+      - name: Commit Game State and README (Conditional)
+        if: steps.parse_issue.outputs.is_valid_move == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/ README.md
+
+          # Check if there are any changes staged for commit
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit. Skipping commit and push."
+          else
+            echo "Changes detected. Committing and pushing."
+            git commit -m "2048: ${{ steps.get_username.outputs.username }} moved ${{ steps.parse_issue.outputs.move_direction || ' (invalid/reset)' }}"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment and Close Issue (Always)
+        if: always() 
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const commentBody = process.env.COMMENT_BODY;
+            const issueReaction = process.env.ISSUE_REACTION;
+
+            // Add reaction
+            if (issueReaction) {
+              await github.rest.reactions.createForIssue({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                content: issueReaction
+              });
+            }
+
+            // Add comment
+            if (commentBody) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                body: commentBody
+              });
+            }
+
+            // Close the issue
+            await github.rest.issues.update({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
+        env: # Pass outputs from parse_issue step as environment variables to the script
+          COMMENT_BODY: ${{ steps.parse_issue.outputs.comment_body }}
+          ISSUE_REACTION: ${{ steps.parse_issue.outputs.issue_reaction }}
