@@ -1,17 +1,21 @@
-# 2048-readme-engine
+# 👋 Hello, I'm Joel... And this is Github 2048!
 
-<img src="https://komarev.com/ghpvc/?username=joelbaldapan" height="1" width="1" style="opacity:0;" />
+Welcome to Github 2048, an open-source game where everyone contributes... a move. <img src="https://komarev.com/ghpvc/?username=joelbaldapan" height="1" width="1" style="opacity:0;" />  
 
-**Welcome to the 2048 game on GitHub!**
+Combine tiles, rank up your points, and climb the leaderboards!  
+**Let's try to reach 2048, together!**
 
-*This is an engine for running 2048 on user Github profiles' README.md.*
-
-<details open><summary>❔ How to Play</summary>
+<details><summary>❔ How to Play</summary>
 
 1. Make a move by **clicking a button** on the controller.
 2. When prompted to create an issue, click `Create`.
 3. Refresh this page until the game has processed your move!
 
+</details>
+
+<details><summary>❔ Encounter a bug/error?</summary>
+
+If you run into any issues, have suggestions, or spot a bug, feel free to open an issue and mention me!
 </details>
 
 ## 🕹️ Current Game Board
@@ -58,7 +62,7 @@
 
 </details>
 
-<details open><summary>🕙️ Recent Moves</summary>
+<details><summary>🕙️ Recent Moves</summary>
 
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
