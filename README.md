@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board.svg?v=20250721135940" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board.svg?v=20250721140544" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -57,7 +57,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_TOP_SCORERS_TABLE-->
 | Rank | Username | Total Score |
 |---|---|---|
-| 1 | [@joelbaldapan](https://github.com/joelbaldapan) | 8 |
+| 1 | [@joelbaldapan](https://github.com/joelbaldapan) | 16 |
 <!--END_TOP_SCORERS_TABLE-->
 
 </details>
@@ -67,6 +67,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@joelbaldapan](https://github.com/joelbaldapan) | +8 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +0 |
