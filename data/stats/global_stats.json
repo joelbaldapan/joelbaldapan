@@ -1,13 +1,13 @@
 {
-  "high_score": 28,
+  "high_score": 44,
   "games_finished": 0,
-  "largest_tile": 8,
-  "total_moves": 9,
+  "largest_tile": 16,
+  "total_moves": 10,
   "unique_users": 3,
   "known_users": [
     "joelbaldapan",
     "geloxies",
     "Irvin-S16"
   ],
-  "current_board_number": 10
+  "current_board_number": 11
 }
