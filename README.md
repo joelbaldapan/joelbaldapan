@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board25.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board26.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -58,7 +58,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | Rank | Username | Total Score |
 |---|---|---|
 | 1 | [@FroilanCando](https://github.com/FroilanCando) | 28 |
-| 2 | [@joelbaldapan](https://github.com/joelbaldapan) | 20 |
+| 2 | [@joelbaldapan](https://github.com/joelbaldapan) | 24 |
 | 3 | [@geloxies](https://github.com/geloxies) | 16 |
 | 4 | [@Irvin-S16](https://github.com/Irvin-S16) | 16 |
 <!--END_TOP_SCORERS_TABLE-->
@@ -70,11 +70,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
 | [@FroilanCando](https://github.com/FroilanCando) | +4 |
 | [@FroilanCando](https://github.com/FroilanCando) | +0 |
 | [@FroilanCando](https://github.com/FroilanCando) | +8 |
 | [@FroilanCando](https://github.com/FroilanCando) | +0 |
-| [@FroilanCando](https://github.com/FroilanCando) | +12 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
