@@ -2,7 +2,7 @@
   "high_score": 76,
   "games_finished": 0,
   "largest_tile": 16,
-  "total_moves": 19,
+  "total_moves": 20,
   "unique_users": 4,
   "known_users": [
     "joelbaldapan",
@@ -10,5 +10,5 @@
     "Irvin-S16",
     "FroilanCando"
   ],
-  "current_board_number": 23
+  "current_board_number": 24
 }
