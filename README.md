@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board17.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board18.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -71,10 +71,10 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | Username | Score Earned |
 |---|---|
 | [@FroilanCando](https://github.com/FroilanCando) | +0 |
+| [@FroilanCando](https://github.com/FroilanCando) | +0 |
 | [@geloxies](https://github.com/geloxies) | +4 |
 | [@geloxies](https://github.com/geloxies) | +4 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +16 |
-| [@joelbaldapan](https://github.com/joelbaldapan) | +0 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
