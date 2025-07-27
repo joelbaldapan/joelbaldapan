@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board30.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board31.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -57,11 +57,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_TOP_SCORERS_TABLE-->
 | Rank | Username | Total Score |
 |---|---|---|
-| 1 | [@james-paul25](https://github.com/james-paul25) | 32 |
-| 2 | [@FroilanCando](https://github.com/FroilanCando) | 28 |
-| 3 | [@joelbaldapan](https://github.com/joelbaldapan) | 24 |
-| 4 | [@geloxies](https://github.com/geloxies) | 20 |
-| 5 | [@Irvin-S16](https://github.com/Irvin-S16) | 16 |
+| 1 | [@Grandpa9585](https://github.com/Grandpa9585) | 36 |
+| 2 | [@james-paul25](https://github.com/james-paul25) | 32 |
+| 3 | [@FroilanCando](https://github.com/FroilanCando) | 28 |
+| 4 | [@joelbaldapan](https://github.com/joelbaldapan) | 24 |
+| 5 | [@geloxies](https://github.com/geloxies) | 20 |
 <!--END_TOP_SCORERS_TABLE-->
 
 </details>
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@Grandpa9585](https://github.com/Grandpa9585) | +36 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +0 |
 | [@james-paul25](https://github.com/james-paul25) | +16 |
 | [@james-paul25](https://github.com/james-paul25) | +16 |
 | [@geloxies](https://github.com/geloxies) | +4 |
-| [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
