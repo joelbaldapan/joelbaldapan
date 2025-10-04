@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board41.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board42.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@Hawshil](https://github.com/Hawshil) | +16 |
 | [@exzestential-crisis](https://github.com/exzestential-crisis) | +12 |
 | [@exzestential-crisis](https://github.com/exzestential-crisis) | +4 |
 | [@james-paul25](https://github.com/james-paul25) | +8 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +4 |
-| [@james-paul25](https://github.com/james-paul25) | +8 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>

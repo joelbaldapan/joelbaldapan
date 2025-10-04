@@ -1,9 +1,9 @@
 {
-  "high_score": 220,
+  "high_score": 236,
   "games_finished": 0,
   "largest_tile": 32,
-  "total_moves": 37,
-  "unique_users": 7,
+  "total_moves": 38,
+  "unique_users": 8,
   "known_users": [
     "joelbaldapan",
     "geloxies",
@@ -11,7 +11,8 @@
     "FroilanCando",
     "james-paul25",
     "Grandpa9585",
-    "exzestential-crisis"
+    "exzestential-crisis",
+    "Hawshil"
   ],
-  "current_board_number": 41
+  "current_board_number": 42
 }
