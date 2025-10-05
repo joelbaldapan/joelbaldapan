@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board44.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board45.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -57,9 +57,9 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_TOP_SCORERS_TABLE-->
 | Rank | Username | Total Score |
 |---|---|---|
-| 1 | [@Grandpa9585](https://github.com/Grandpa9585) | 64 |
-| 2 | [@james-paul25](https://github.com/james-paul25) | 48 |
-| 3 | [@Hawshil](https://github.com/Hawshil) | 48 |
+| 1 | [@Hawshil](https://github.com/Hawshil) | 120 |
+| 2 | [@Grandpa9585](https://github.com/Grandpa9585) | 64 |
+| 3 | [@james-paul25](https://github.com/james-paul25) | 48 |
 | 4 | [@joelbaldapan](https://github.com/joelbaldapan) | 28 |
 | 5 | [@FroilanCando](https://github.com/FroilanCando) | 28 |
 <!--END_TOP_SCORERS_TABLE-->
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@Hawshil](https://github.com/Hawshil) | +72 |
 | [@Hawshil](https://github.com/Hawshil) | +0 |
 | [@Hawshil](https://github.com/Hawshil) | +32 |
 | [@Hawshil](https://github.com/Hawshil) | +16 |
 | [@exzestential-crisis](https://github.com/exzestential-crisis) | +12 |
-| [@exzestential-crisis](https://github.com/exzestential-crisis) | +4 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
