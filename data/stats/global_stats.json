@@ -1,8 +1,8 @@
 {
-  "high_score": 340,
+  "high_score": 348,
   "games_finished": 0,
   "largest_tile": 64,
-  "total_moves": 41,
+  "total_moves": 42,
   "unique_users": 8,
   "known_users": [
     "joelbaldapan",
@@ -14,5 +14,5 @@
     "exzestential-crisis",
     "Hawshil"
   ],
-  "current_board_number": 45
+  "current_board_number": 46
 }
