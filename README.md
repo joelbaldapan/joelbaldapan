@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board48.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board49.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@lulunac27a](https://github.com/lulunac27a) | +4 |
 | [@lulunac27a](https://github.com/lulunac27a) | +0 |
 | [@lulunac27a](https://github.com/lulunac27a) | +0 |
 | [@joelbaldapan](https://github.com/joelbaldapan) | +8 |
 | [@Hawshil](https://github.com/Hawshil) | +72 |
-| [@Hawshil](https://github.com/Hawshil) | +0 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
