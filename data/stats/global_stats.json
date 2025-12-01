@@ -2,8 +2,8 @@
   "high_score": 380,
   "games_finished": 0,
   "largest_tile": 64,
-  "total_moves": 47,
-  "unique_users": 9,
+  "total_moves": 48,
+  "unique_users": 10,
   "known_users": [
     "joelbaldapan",
     "geloxies",
@@ -13,7 +13,8 @@
     "Grandpa9585",
     "exzestential-crisis",
     "Hawshil",
-    "lulunac27a"
+    "lulunac27a",
+    "mnico322"
   ],
-  "current_board_number": 51
+  "current_board_number": 52
 }
