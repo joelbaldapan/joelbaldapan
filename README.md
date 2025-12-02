@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board52.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board53.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -60,8 +60,8 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | 1 | [@Hawshil](https://github.com/Hawshil) | 120 |
 | 2 | [@Grandpa9585](https://github.com/Grandpa9585) | 64 |
 | 3 | [@james-paul25](https://github.com/james-paul25) | 48 |
-| 4 | [@joelbaldapan](https://github.com/joelbaldapan) | 36 |
-| 5 | [@lulunac27a](https://github.com/lulunac27a) | 32 |
+| 4 | [@lulunac27a](https://github.com/lulunac27a) | 44 |
+| 5 | [@joelbaldapan](https://github.com/joelbaldapan) | 36 |
 <!--END_TOP_SCORERS_TABLE-->
 
 </details>
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@lulunac27a](https://github.com/lulunac27a) | +12 |
 | [@mnico322](https://github.com/mnico322) | +0 |
 | [@lulunac27a](https://github.com/lulunac27a) | +20 |
 | [@lulunac27a](https://github.com/lulunac27a) | +8 |
 | [@lulunac27a](https://github.com/lulunac27a) | +4 |
-| [@lulunac27a](https://github.com/lulunac27a) | +0 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
