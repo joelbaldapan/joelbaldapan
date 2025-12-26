@@ -1,8 +1,8 @@
 {
-  "high_score": 428,
+  "high_score": 432,
   "games_finished": 0,
   "largest_tile": 64,
-  "total_moves": 56,
+  "total_moves": 57,
   "unique_users": 13,
   "known_users": [
     "joelbaldapan",
@@ -19,5 +19,5 @@
     "louie-github",
     "Quantum3600"
   ],
-  "current_board_number": 60
+  "current_board_number": 61
 }

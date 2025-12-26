@@ -1,5 +1,5 @@
 {
-  "total_score": 428,
+  "total_score": 432,
   "history": [
     {
       "username": "joelbaldapan",
@@ -1680,6 +1680,36 @@
         ]
       ],
       "score": 0
+    },
+    {
+      "username": "lulunac27a",
+      "board": [
+        [
+          4,
+          4,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          16,
+          8
+        ],
+        [
+          0,
+          0,
+          64,
+          4
+        ],
+        [
+          2,
+          0,
+          16,
+          0
+        ]
+      ],
+      "score": 4
     }
   ]
 }
