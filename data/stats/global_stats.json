@@ -2,8 +2,8 @@
   "high_score": 428,
   "games_finished": 0,
   "largest_tile": 64,
-  "total_moves": 55,
-  "unique_users": 12,
+  "total_moves": 56,
+  "unique_users": 13,
   "known_users": [
     "joelbaldapan",
     "geloxies",
@@ -16,7 +16,8 @@
     "lulunac27a",
     "mnico322",
     "pxlrs",
-    "louie-github"
+    "louie-github",
+    "Quantum3600"
   ],
-  "current_board_number": 59
+  "current_board_number": 60
 }
