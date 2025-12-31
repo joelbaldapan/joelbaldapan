@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board62.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board63.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -58,7 +58,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | Rank | Username | Total Score |
 |---|---|---|
 | 1 | [@Hawshil](https://github.com/Hawshil) | 120 |
-| 2 | [@lulunac27a](https://github.com/lulunac27a) | 88 |
+| 2 | [@lulunac27a](https://github.com/lulunac27a) | 92 |
 | 3 | [@Grandpa9585](https://github.com/Grandpa9585) | 64 |
 | 4 | [@james-paul25](https://github.com/james-paul25) | 48 |
 | 5 | [@joelbaldapan](https://github.com/joelbaldapan) | 36 |
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@lulunac27a](https://github.com/lulunac27a) | +4 |
 | [@lulunac27a](https://github.com/lulunac27a) | +8 |
 | [@lulunac27a](https://github.com/lulunac27a) | +4 |
 | [@Quantum3600](https://github.com/Quantum3600) | +0 |
 | [@louie-github](https://github.com/louie-github) | +0 |
-| [@pxlrs](https://github.com/pxlrs) | +4 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
