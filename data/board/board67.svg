@@ -4,18 +4,19 @@
 </defs>
 <rect x="0" y="0" width="450" height="510" fill="#0F3743"/>
 <text x="225.0" y="44.0" font-family="Martian Mono" font-size="29.4" fill="#f9f6f2" text-anchor="middle">Score: 456</text>
-<rect x="10" y="70" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
-<rect x="120" y="70" width="100" height="100" rx="8" ry="8" fill="#b2dbdd"/>
-<text x="170.0" y="131.2" font-family="Martian Mono" font-size="33.6" fill="#1B1B19" text-anchor="middle">2</text>
+<rect x="10" y="70" width="100" height="100" rx="8" ry="8" fill="#b2dbdd"/>
+<text x="60.0" y="131.2" font-family="Martian Mono" font-size="33.6" fill="#1B1B19" text-anchor="middle">2</text>
+<rect x="120" y="70" width="100" height="100" rx="8" ry="8" fill="#5ac4c2"/>
+<text x="170.0" y="131.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">8</text>
 <rect x="230" y="70" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
-<rect x="340" y="70" width="100" height="100" rx="8" ry="8" fill="#5ac4c2"/>
-<text x="390.0" y="131.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">8</text>
-<rect x="10" y="180" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
-<rect x="120" y="180" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
-<rect x="230" y="180" width="100" height="100" rx="8" ry="8" fill="#00adb1"/>
-<text x="280.0" y="241.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">16</text>
-<rect x="340" y="180" width="100" height="100" rx="8" ry="8" fill="#5ac4c2"/>
-<text x="390.0" y="241.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">8</text>
+<rect x="340" y="70" width="100" height="100" rx="8" ry="8" fill="#b2dbdd"/>
+<text x="390.0" y="131.2" font-family="Martian Mono" font-size="33.6" fill="#1B1B19" text-anchor="middle">2</text>
+<rect x="10" y="180" width="100" height="100" rx="8" ry="8" fill="#00adb1"/>
+<text x="60.0" y="241.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">16</text>
+<rect x="120" y="180" width="100" height="100" rx="8" ry="8" fill="#5ac4c2"/>
+<text x="170.0" y="241.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">8</text>
+<rect x="230" y="180" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
+<rect x="340" y="180" width="100" height="100" rx="8" ry="8" fill="#275e71"/>
 <rect x="10" y="290" width="100" height="100" rx="8" ry="8" fill="#5ac4c2"/>
 <text x="60.0" y="351.2" font-family="Martian Mono" font-size="33.6" fill="#f9f6f2" text-anchor="middle">8</text>
 <rect x="120" y="290" width="100" height="100" rx="8" ry="8" fill="#00747e"/>
