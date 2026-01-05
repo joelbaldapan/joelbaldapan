@@ -1,9 +1,9 @@
 {
-  "high_score": 600,
+  "high_score": 608,
   "games_finished": 0,
   "largest_tile": 64,
-  "total_moves": 74,
-  "unique_users": 15,
+  "total_moves": 75,
+  "unique_users": 16,
   "known_users": [
     "joelbaldapan",
     "geloxies",
@@ -19,7 +19,8 @@
     "louie-github",
     "Quantum3600",
     "VanHautin",
-    "yubedaoneineed"
+    "yubedaoneineed",
+    "Pranziss"
   ],
-  "current_board_number": 78
+  "current_board_number": 79
 }
