@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board146.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board147.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -58,7 +58,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 | Rank | Username | Total Score |
 |---|---|---|
 | 1 | [@lulunac27a](https://github.com/lulunac27a) | 524 |
-| 2 | [@tadanobutubutu](https://github.com/tadanobutubutu) | 236 |
+| 2 | [@tadanobutubutu](https://github.com/tadanobutubutu) | 240 |
 | 3 | [@VanHautin](https://github.com/VanHautin) | 144 |
 | 4 | [@Hawshil](https://github.com/Hawshil) | 120 |
 | 5 | [@Pranziss](https://github.com/Pranziss) | 76 |
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@tadanobutubutu](https://github.com/tadanobutubutu) | +4 |
 | [@tadanobutubutu](https://github.com/tadanobutubutu) | +16 |
 | [@tadanobutubutu](https://github.com/tadanobutubutu) | +8 |
 | [@tadanobutubutu](https://github.com/tadanobutubutu) | +4 |
 | [@tadanobutubutu](https://github.com/tadanobutubutu) | +8 |
-| [@tadanobutubutu](https://github.com/tadanobutubutu) | +0 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
