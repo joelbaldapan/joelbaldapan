@@ -1,9 +1,9 @@
 {
-  "high_score": 1116,
+  "high_score": 1132,
   "games_finished": 0,
   "largest_tile": 128,
-  "total_moves": 104,
-  "unique_users": 19,
+  "total_moves": 105,
+  "unique_users": 20,
   "known_users": [
     "joelbaldapan",
     "geloxies",
@@ -23,7 +23,8 @@
     "Pranziss",
     "alexcerezo",
     "itzD3L",
-    "carljooohn"
+    "carljooohn",
+    "tadanobutubutu"
   ],
-  "current_board_number": 109
+  "current_board_number": 110
 }
