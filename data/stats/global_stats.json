@@ -1,8 +1,8 @@
 {
-  "high_score": 1204,
+  "high_score": 1212,
   "games_finished": 0,
   "largest_tile": 128,
-  "total_moves": 123,
+  "total_moves": 124,
   "unique_users": 20,
   "known_users": [
     "joelbaldapan",
@@ -26,5 +26,5 @@
     "carljooohn",
     "tadanobutubutu"
   ],
-  "current_board_number": 130
+  "current_board_number": 131
 }
