@@ -1,5 +1,5 @@
 {
-  "total_score": 32,
+  "total_score": 48,
   "history": [
     {
       "username": "tadanobutubutu",
@@ -330,6 +330,36 @@
         ]
       ],
       "score": 8
+    },
+    {
+      "username": "tadanobutubutu",
+      "board": [
+        [
+          16,
+          2,
+          2,
+          4
+        ],
+        [
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "score": 16
     }
   ]
 }
