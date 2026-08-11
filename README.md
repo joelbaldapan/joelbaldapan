@@ -18,7 +18,7 @@ Combine tiles, rank up your points, and climb the leaderboards!
 If you run into any issues, have suggestions, or spot a bug, feel free to open an issue and mention me!
 </details>
 
-## 🕹️ Current Game Board
+## Current Game Board
 
 <table align="center">
   <tr>
@@ -80,5 +80,5 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 
 </details>
 
-## 🤖 Want to make your own?
+## Want to make your own?
 You may check out my [2048 README Engine repository](https://github.com/joelbaldapan/2048-readme-engine/)! 
