@@ -23,7 +23,7 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <table align="center">
   <tr>
     <td width="50%">
-      <img src="data/board/board196.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
+      <img src="data/board/board197.svg" alt="Current 2048 Board" style="width: 100%; max-width: 400px;">
     </td>
     <td align="center">
         <h2 align="center">Controls</h2>
@@ -71,11 +71,11 @@ If you run into any issues, have suggestions, or spot a bug, feel free to open a
 <!--START_RECENT_MOVES_TABLE-->
 | Username | Score Earned |
 |---|---|
+| [@Cooomunity](https://github.com/Cooomunity) | +0 |
 | [@yadav-satyam](https://github.com/yadav-satyam) | +4 |
 | [@ReddLeaf](https://github.com/ReddLeaf) | +8 |
 | [@samuelxhixho](https://github.com/samuelxhixho) | +4 |
 | [@mugeshkannan-cse](https://github.com/mugeshkannan-cse) | +0 |
-| [@mugeshkannan-cse](https://github.com/mugeshkannan-cse) | +36 |
 <!--END_RECENT_MOVES_TABLE-->
 
 </details>
